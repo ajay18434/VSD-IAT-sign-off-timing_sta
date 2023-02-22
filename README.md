@@ -35,7 +35,9 @@ Liberty File : Standards Cells Information is present in liberty or .lib file
 .lib life
 
 https://user-images.githubusercontent.com/119410034/220532022-8201a2f9-ec32-4a94-8eef-4092ab313d88.png
+
 https://user-images.githubusercontent.com/119410034/220532028-bd82a558-ce59-4872-9c47-feb49733122c.png
+
 https://user-images.githubusercontent.com/119410034/220532032-e505e85f-2e38-49e4-a859-de0ed6923ff2.png
 
 # Lab_1 : run OpenSTA
