@@ -163,7 +163,7 @@ https://user-images.githubusercontent.com/119410034/220618265-13740304-ca10-47ca
 # exercise 
 report_checks –from F1/CK -endpoint_count 100
 
-(https://user-images.githubusercontent.com/119410034/220618494-d2d6c175-7841-4532-98a5-cbc8bce9c690.png
+https://user-images.githubusercontent.com/119410034/220618494-d2d6c175-7841-4532-98a5-cbc8bce9c690.png
 
 
 commom path pesimism removal
