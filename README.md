@@ -1,6 +1,6 @@
 # VSD-IAT-sign-off-timing_sta
 
-# day 1 :
+# Day 1 :
 
 
 OpenSTA is a gate level static timing verifier. As a stand-alone executable it can be used to verify the timing of a design using standard file formats like :-
