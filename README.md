@@ -2,7 +2,7 @@
 
 # Day 1 :
 
-
+# Lab_1 : About OpenSTA
 OpenSTA is a gate level static timing verifier. As a stand-alone executable it can be used to verify the timing of a design using standard file formats like :-
 
 -Verilog netlist
@@ -22,7 +22,7 @@ Reference for commands used in OpenSTA :
 
 https://github.com/ajay18434/VSD-IAT-sign-off-timing_sta/files/10800297/OpenSTA.pdf
 
-Lab_1 : Inputs to OpenSTA
+# Lab_1 : Inputs to OpenSTA
 
 
 https://user-images.githubusercontent.com/119410034/220531836-426285fb-8988-4399-bbdb-da2df6213f7d.png
@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/119410034/220532022-8201a2f9-ec32-4a94
 https://user-images.githubusercontent.com/119410034/220532028-bd82a558-ce59-4872-9c47-feb49733122c.png
 https://user-images.githubusercontent.com/119410034/220532032-e505e85f-2e38-49e4-a859-de0ed6923ff2.png
 
-Lab_1 : run OpenSTA
+# Lab_1 : run OpenSTA
 
 Following files shows the steps to read all the above inputs & perform the timing check
 
@@ -60,7 +60,7 @@ https://user-images.githubusercontent.com/119410034/220533123-2bf0acd0-c1fb-405e
 # Day2 : 
 
 
-Lab_2 : Liberty Files
+# Lab_2 : Liberty Files
 
 The .lib file is an ASCII representation of the timing & power parameters associated with any cell in a particular semiconductor technology
 
@@ -70,7 +70,7 @@ Following the command to read liberty file in OpenSTA :-
 
 read_liberty 
 
-Lab_2 : Exercise 1
+# Lab_2 : Exercise 1
 
 "Find all cells in simple_max.lib" Total 211 cells are present 
 
@@ -88,7 +88,7 @@ https://user-images.githubusercontent.com/119410034/220534600-c896855a-6774-4950
 
 https://user-images.githubusercontent.com/119410034/220534952-d59b07cf-e07d-4e11-9aa3-7c62fb458786.png
 
-Lab_2 : Exercise 2
+# Lab_2 : Exercise 2
 
 https://user-images.githubusercontent.com/119410034/220535114-c81e69e4-1e8c-4ec1-9118-3d3030d75275.png
 
@@ -98,7 +98,7 @@ https://user-images.githubusercontent.com/119410034/220535114-c81e69e4-1e8c-4ec1
 # Day3 :
 
 
-Lab_3 : Understanding Slack Compulation
+# Lab_3 : Understanding Slack Compulation
 
 Following the circuit provided to perform the slack compulation calculation
 
@@ -126,7 +126,7 @@ https://user-images.githubusercontent.com/119410034/220536354-83dbdf3f-a4d3-4b01
 # Day4 :
 
 
-Lab_4 : Clock Gating Check
+# Lab_4 : Clock Gating Check
 
 
 https://user-images.githubusercontent.com/119410034/220536692-0d64dab1-9dd7-4cab-b572-bf85203c479d.png
@@ -134,7 +134,7 @@ https://user-images.githubusercontent.com/119410034/220536692-0d64dab1-9dd7-4cab
 https://user-images.githubusercontent.com/119410034/220536760-f34527a0-d345-44dd-ba27-6629e5ab2a0c.png
 
 
-Lab 4 : Async Pin Check
+# Lab 4 : Async Pin Check
 
 
 https://user-images.githubusercontent.com/119410034/220536827-9c5d1b26-de27-4e5c-a457-3f2e228429ee.png
