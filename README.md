@@ -23,12 +23,13 @@ Reference for commands used in OpenSTA :
 https://github.com/ajay18434/VSD-IAT-sign-off-timing_sta/files/10800297/OpenSTA.pdf
 
 # Lab_1 : Inputs to OpenSTA
-
+cd lab1
+simple.v
 
 https://user-images.githubusercontent.com/119410034/220531836-426285fb-8988-4399-bbdb-da2df6213f7d.png
 
 Liberty File : Standards Cells Information is present in liberty or .lib file
-
+.lib life
 
 https://user-images.githubusercontent.com/119410034/220532022-8201a2f9-ec32-4a94-8eef-4092ab313d88.png
 https://user-images.githubusercontent.com/119410034/220532028-bd82a558-ce59-4872-9c47-feb49733122c.png
@@ -139,4 +140,55 @@ https://user-images.githubusercontent.com/119410034/220536760-f34527a0-d345-44dd
 
 https://user-images.githubusercontent.com/119410034/220536827-9c5d1b26-de27-4e5c-a457-3f2e228429ee.png
 
+
+# Day5 :
+
+
+# lab_5 :slack computation
+
+
+https://user-images.githubusercontent.com/119410034/220616536-e37c95a3-e633-497f-b70a-13e53b43ad10.png
+
+from the above figure we have to analyze the path in the report of the slack
+
+Type “cd lab3”
+• Run ‘sta run.tcl -noexit | tee out.txt’
+
+https://user-images.githubusercontent.com/119410034/220618265-13740304-ca10-47ca-b642-afd2a29d5836.png
+
+
+# exercise 
+report_checks –from F1/CK -endpoint_count 100
+
+(https://user-images.githubusercontent.com/119410034/220618494-d2d6c175-7841-4532-98a5-cbc8bce9c690.png
+
+
+commom path pesimism removal
+Type ‘cd lab4’
+• Run ‘sta run.tcl –exit | out.txt’
+% report_checks –to F2/D
+
+https://user-images.githubusercontent.com/119410034/220618780-d17cfa29-e37f-4934-8551-be752037fc6c.png
+
+
+with set sta_crpr_enabled 1 : 
+
+• set sta_crpr_enabled 1
+% report_checks -to F2/D
+
+https://user-images.githubusercontent.com/119410034/220618971-579fc61d-f75e-4ccd-a80d-c9305d43fecd.png
+
+
+# ECO INSERTION
+
+cd lab5 and run.tcl
+
+Run sta run.tcl –exit | tee run.log
+
+https://user-images.githubusercontent.com/119410034/220619638-695d87be-2db8-4c01-bba3-ea4e85a6f5af.png
+
+
+# diff between s27.v and s27_eco.v
+
+https://user-images.githubusercontent.com/119410034/220619848-f5065594-9dc6-4c70-bb98-1896ca5f3400.png
 
