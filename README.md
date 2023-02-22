@@ -1,7 +1,7 @@
 # VSD-IAT-sign-off-timing_sta
 
 
-# referance path for labs : https://github.com/vikkisachdeva/openSTA_sta_workshop/vlsideepdive_openSTA_labs
+# referance path for labs : https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs
 
 # Day 1 :
 
