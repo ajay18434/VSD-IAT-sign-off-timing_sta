@@ -1,5 +1,7 @@
 # VSD-IAT-sign-off-timing_sta
 
+day 1 :
+
 
 OpenSTA is a gate level static timing verifier. As a stand-alone executable it can be used to verify the timing of a design using standard file formats like :-
 
@@ -55,7 +57,9 @@ https://user-images.githubusercontent.com/119410034/220533123-2bf0acd0-c1fb-405e
 
 
 
-Day2
+Day2 : 
+
+
 Lab_2 : Liberty Files
 
 The .lib file is an ASCII representation of the timing & power parameters associated with any cell in a particular semiconductor technology
@@ -91,7 +95,9 @@ https://user-images.githubusercontent.com/119410034/220535114-c81e69e4-1e8c-4ec1
 
 
 
-Day3
+Day3 :
+
+
 Lab_3 : Understanding Slack Compulation
 
 Following the circuit provided to perform the slack compulation calculation
@@ -117,7 +123,9 @@ https://user-images.githubusercontent.com/119410034/220536354-83dbdf3f-a4d3-4b01
 
 
 
-Day4
+Day4 :
+
+
 Lab_4 : Clock Gating Check
 
 
