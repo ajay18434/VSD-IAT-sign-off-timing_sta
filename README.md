@@ -52,8 +52,9 @@ Following files shows the steps to read all the above inputs & perform the timin
 
 Following the command use to run OpenSTA
 
-
-`sta run.tcl -exit | tee run1.log`
+```
+sta run.tcl -exit | tee run1.log
+```
 
 After the execution of above command , all inputs are being read as show in below image :-
 
@@ -78,7 +79,12 @@ It contains the information like :- -I/O delay paths -Timing check values -Inter
 
 Following the command to read liberty file in OpenSTA :-
 
-`read_liberty` 
+`read_liberty`
+
+Liberty file will following information 
+![liberty1](./images/libert1.png)
+![liberty2](./images/libert2.png)
+![liberty3](./images/liberty3.png)
 
 # Lab_2 : Exercise 1
 
@@ -108,9 +114,6 @@ understand the report
 ![day2](./images/day2_5.png)
 
 
-
-
-
 # Day3 :
 
 
@@ -123,9 +126,9 @@ Following the circuit provided to perform the slack compulation calculation
 
 
 Following snap shows the command & inputs used for slack computation :-
-
-`report_checks -from F1/CK`
-
+```
+report_checks -from F1/CK
+```
 
 ![day3](./images/day3_2.png)
 
@@ -135,8 +138,9 @@ This will report slack compulation w.r.t that path as shown in below image :-
 
 ![day3](./images/day3_3.png)
 
-
-`report_checks -from F1/CK -endpoint_count 100`
+```
+report_checks -from F1/CK -endpoint_count 100
+```
 
 ![day3](./images/day3_4.png)
 
@@ -191,8 +195,10 @@ sta run.tcl -noexit | tee out.txt
 
 
 # exercise 
-
-`report_checks –from F1/CK -endpoint_count 100`
+Analyze each path in detail and understand
+```
+report_checks –from F1/CK -endpoint_count 100
+```
 ![exe](./images/exe1.png)
 
 
