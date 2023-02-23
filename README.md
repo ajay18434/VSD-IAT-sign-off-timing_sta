@@ -212,7 +212,7 @@ cd lab5 and run.tcl
 
 Run 'sta run.tcl –exit | tee run.log'
 
-![eco](./images/eco_insert1.png)
+![eco](./images/eco_insert.png)
 
 
 
