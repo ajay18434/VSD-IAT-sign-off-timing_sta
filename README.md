@@ -27,17 +27,17 @@ Reference for commands used in OpenSTA :
 https://github.com/ajay18434/VSD-IAT-sign-off-timing_sta/files/10800297/OpenSTA.pdf
 
 # Lab_1 : Inputs to OpenSTA
+```
 cd lab1
 simple.v
+```
 
 ![Std cell](./images/day1.png)
 
-Liberty File : Standards Cells Information is present in liberty or .lib file
+Liberty File : Standards Cells Information is present in `liberty` or `.lib` file
 .lib life
 
-https://user-images.githubusercontent.com/119410034/220532022-8201a2f9-ec32-4a94-8eef-4092ab313d88.png
-
-https://user-images.githubusercontent.com/119410034/220532028-bd82a558-ce59-4872-9c47-feb49733122c.png
+!(./images/day1_1.png)
 
 https://user-images.githubusercontent.com/119410034/220532032-e505e85f-2e38-49e4-a859-de0ed6923ff2.png
 
@@ -85,7 +85,7 @@ read_liberty
 https://user-images.githubusercontent.com/119410034/220534292-c36e3268-ee74-4908-ad9b-e317e8104d63.png
 
 
-"Find all pins of NAND2_X1" All pins w.r.t NAND2_X1 & their direction can be found from lib file as shown below :- 
+"Find all pins of 'NAND2_X1' All pins w.r.t 'NAND2_X1' & their direction can be found from lib file as shown below :- 
 
 
 https://user-images.githubusercontent.com/119410034/220534588-7cbfe431-da94-4a52-81a4-fbc156f25088.png
@@ -113,7 +113,7 @@ Following the circuit provided to perform the slack compulation calculation
 
 https://user-images.githubusercontent.com/119410034/220535317-c3f0f017-c7ef-4d39-9896-81480364540a.png
 
-Following snap shows the command & inputs used for slack computation :- report_checks -from F1/CK
+Following snap shows the command & inputs used for slack computation :-' report_checks -from F1/CK'
 
 
 https://user-images.githubusercontent.com/119410034/220536141-9423a2be-255d-4317-b4db-4af66b4edc5c.png
@@ -123,7 +123,7 @@ This will report slack compulation w.r.t that path as shown in below image :-
 
 https://user-images.githubusercontent.com/119410034/220536238-ebe73723-43c2-4b84-bd30-3fdf23744b6d.png
 
-report_checks -from F1/CK -endpoint_count 100
+'report_checks -from F1/CK -endpoint_count 100'
 
 
 https://user-images.githubusercontent.com/119410034/220536354-83dbdf3f-a4d3-4b01-ac4b-822cbc566dbf.png
@@ -158,31 +158,31 @@ https://user-images.githubusercontent.com/119410034/220616536-e37c95a3-e633-497f
 
 from the above figure we have to analyze the path in the report of the slack
 
-Type “cd lab3”
+Type 'cd lab3'
 • Run ‘sta run.tcl -noexit | tee out.txt’
 
 https://user-images.githubusercontent.com/119410034/220618265-13740304-ca10-47ca-b642-afd2a29d5836.png
 
 
 # exercise 
-report_checks –from F1/CK -endpoint_count 100
+'report_checks –from F1/CK -endpoint_count 100'
 
 https://user-images.githubusercontent.com/119410034/220618494-d2d6c175-7841-4532-98a5-cbc8bce9c690.png
 
 
-commom path pesimism removal
-Type ‘cd lab4’
-• Run ‘sta run.tcl –exit | out.txt’
-% report_checks –to F2/D
+commom path pesimism removal('CRPR')
+Type 'cd lab4'
+• Run 'sta run.tcl –exit | out.txt’'
+' report_checks –to F2/D'
 
 https://user-images.githubusercontent.com/119410034/220618780-d17cfa29-e37f-4934-8551-be752037fc6c.png
 
 
 with set sta_crpr_enabled 1 : 
-
+'''
 • set sta_crpr_enabled 1
 % report_checks -to F2/D
-
+'''
 https://user-images.githubusercontent.com/119410034/220618971-579fc61d-f75e-4ccd-a80d-c9305d43fecd.png
 
 
@@ -190,7 +190,7 @@ https://user-images.githubusercontent.com/119410034/220618971-579fc61d-f75e-4ccd
 
 cd lab5 and run.tcl
 
-Run sta run.tcl –exit | tee run.log
+Run 'sta run.tcl –exit | tee run.log'
 
 https://user-images.githubusercontent.com/119410034/220619638-695d87be-2db8-4c01-bba3-ea4e85a6f5af.png
 
