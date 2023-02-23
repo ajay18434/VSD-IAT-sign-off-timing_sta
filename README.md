@@ -78,7 +78,7 @@ It contains the information like :- -I/O delay paths -Timing check values -Inter
 
 Following the command to read liberty file in OpenSTA :-
 
-read_liberty 
+`read_liberty` 
 
 # Lab_2 : Exercise 1
 
@@ -104,6 +104,7 @@ Find Different between "NAND2_x1 & NAND3_X1" Difference between NAND2_x1 & NAND3
 
 # Lab_2 : Exercise 2
 understand the report
+
 ![day2](./images/day2_5.png)
 
 
@@ -122,6 +123,7 @@ Following the circuit provided to perform the slack compulation calculation
 
 
 Following snap shows the command & inputs used for slack computation :-
+
 `report_checks -from F1/CK`
 
 
@@ -146,18 +148,25 @@ This will report slack compulation w.r.t that path as shown in below image :-
 
 
 # Lab_4 : Clock Gating Check
-
+gvim s27.v
 
 ![day4](./images/day4_1.png)
-
+```
+cd lab6
+leafpad run.tcl
+sta run.tcl –exit | tee run.log
+```
 
 ![day4](./images/day4_2.png)
 
 
 
 # Lab 4 : Async Pin Check
-
-
+```
+cd lab7
+leafpad run.tcl
+sta run.tcl –exit | tee run.log
+```
 ![day4](./images/day4_3.png)
 
 
