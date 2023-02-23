@@ -19,7 +19,7 @@ Query based incremental update of delays, arrival and required times & Simulator
 OpenSTA pdf :
 
 
-![OpenSTA](./images/OpenSTA.pdf)
+![OpenSTA](./OpenSTA_pdf/OpenSTA.pdf)
 
 # Lab_1 : Inputs to OpenSTA
 ```
