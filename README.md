@@ -109,7 +109,7 @@ Find Different between "NAND2_x1 & NAND3_X1" Difference between NAND2_x1 & NAND3
 
 
 # Lab_2 : Exercise 2
-understand the report
+Understand the report
 
 ![day2](./images/day2_5.png)
 
@@ -152,7 +152,7 @@ report_checks -from F1/CK -endpoint_count 100
 
 
 # Lab_4 : Clock Gating Check
-cat s27.v
+% cat s27.v
 
 ![day4](./images/day4_1.png)
 ```
@@ -184,7 +184,7 @@ sta run.tcl –exit | tee run.log
 ![day5](./images/day5_1.png)
 
 
-from the above figure we have to analyze the path in the report of the slack
+From the above figure we have to analyze the path in the report of the slack
 ```
 cd lab3
 sta run.tcl -noexit | tee out.txt
@@ -203,7 +203,7 @@ report_checks –from F1/CK -endpoint_count 100
 
 
 
-commom path pesimism removal('CRPR')
+Commom path pesimism removal('CRPR')
 ```
 cd lab4
 sta run.tcl –exit | out.txt
@@ -222,7 +222,7 @@ report_checks -to F2/D
 
 
 
-# ECO INSERTION
+# ECO insertion
 ```
 cd lab5
 run.tcl
@@ -237,6 +237,6 @@ diff between s27.v and s27_eco.v
 
 
 
-path for labs : https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs
+path for labs ![here](https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs)
 
 
