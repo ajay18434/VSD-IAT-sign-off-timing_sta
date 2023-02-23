@@ -152,7 +152,7 @@ report_checks -from F1/CK -endpoint_count 100
 
 
 # Lab_4 : Clock Gating Check
-gvim s27.v
+cat s27.v
 
 ![day4](./images/day4_1.png)
 ```
