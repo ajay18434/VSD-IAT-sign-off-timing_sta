@@ -30,7 +30,7 @@ https://github.com/ajay18434/VSD-IAT-sign-off-timing_sta/files/10800297/OpenSTA.
 cd lab1
 simple.v
 
-https://user-images.githubusercontent.com/119410034/220531836-426285fb-8988-4399-bbdb-da2df6213f7d.png
+![Std cell](./images/day1.png)
 
 Liberty File : Standards Cells Information is present in liberty or .lib file
 .lib life
