@@ -1,8 +1,6 @@
 # VSD-IAT-sign-off-timing_sta
 
 
-# referance path for labs : https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs
-
 
 # Day 1 :
 
@@ -31,13 +29,13 @@ Reference for commands used in OpenSTA :
 cd lab1
 simple.v
 ```
-
+![day1](./images/day1_1.png)
 
 
 Liberty File : Standards Cells Information is present in `liberty` or `.lib` file
 .lib life
 
-![day1](./images/day1_1.png)
+
 ![day1](./images/day1_2.png)
 ![day1](./images/day1_3.png)
 ![day1](./images/day1_4.png)
@@ -53,9 +51,11 @@ Following files shows the steps to read all the above inputs & perform the timin
 ![day1](./images/day1_5.png)
 
 Following the command use to run OpenSTA
+
 '''
 sta run.tcl -exit | tee run1.log
 '''
+
 After the execution of above command , all inputs are being read as show in below image :-
 
 
@@ -83,13 +83,13 @@ read_liberty
 
 # Lab_2 : Exercise 1
 
-"Find all cells in simple_max.lib" Total 211 cells are present 
+Find all cells in "simple_max.lib" Total 211 cells are present 
 
 
 ![day2](./images/day2_1.png)
 
 
-"Find all pins of 'NAND2_X1' All pins w.r.t 'NAND2_X1' & their direction can be found from lib file as shown below :- 
+Find all pins of 'NAND2_X1' All pins w.r.t 'NAND2_X1' & their direction can be found from lib file as shown below :- 
 
 
 ![day2](./images/day2_2.png)
@@ -98,13 +98,13 @@ read_liberty
 ![day2](./images/day2_3.png)
 
 
-"Find Different between NAND2_x1 & NAND3_X1" Difference between NAND2_x1 & NAND3_X1 is highlighted in below image :-
+Find Different between "NAND2_x1 & NAND3_X1" Difference between NAND2_x1 & NAND3_X1 is highlighted in below image :-
 
 ![day2](./images/day2_4.png)
 
 
 # Lab_2 : Exercise 2
-
+understand the report
 ![day2](./images/day2_5.png)
 
 
@@ -192,7 +192,9 @@ sta run.tcl -noexit | tee out.txt
 commom path pesimism removal('CRPR')
 '''
 cd lab4
+
 sta run.tcl –exit | out.txt
+
 report_checks –to F2/D
 '''
 ![exe](./images/exe2.png)
@@ -202,6 +204,7 @@ report_checks –to F2/D
 with set sta_crpr_enabled 1 : 
 '''
 set sta_crpr_enabled 1
+
 report_checks -to F2/D
 '''
 ![exe](./images/exe3.png)
@@ -210,8 +213,10 @@ report_checks -to F2/D
 
 # ECO INSERTION
 '''
-cd lab5 
+cd lab5
+
 run.tcl
+
 sta run.tcl –exit | tee run.log'
 '''
 ![eco](./images/eco_insert.png)
@@ -221,4 +226,9 @@ sta run.tcl –exit | tee run.log'
 # diff between s27.v and s27_eco.v
 
 ![diff](./images/gvimdiff.png)
+
+
+
+path for labs : https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs
+
 
