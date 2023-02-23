@@ -24,7 +24,7 @@ Query based incremental update of delays, arrival and required times & Simulator
 Reference for commands used in OpenSTA :
 
 
-https://github.com/ajay18434/VSD-IAT-sign-off-timing_sta/files/10800297/OpenSTA.pdf
+![OpenSTA](./Downloads/OpenSTA.pdf)
 
 # Lab_1 : Inputs to OpenSTA
 ```
@@ -53,9 +53,9 @@ Following files shows the steps to read all the above inputs & perform the timin
 ![day1](./images/day1_5.png)
 
 Following the command use to run OpenSTA
-
+'''
 sta run.tcl -exit | tee run1.log
-
+'''
 After the execution of above command , all inputs are being read as show in below image :-
 
 
@@ -133,9 +133,9 @@ This will report slack compulation w.r.t that path as shown in below image :-
 
 ![day3](./images/day3_3.png)
 
-
+'''
 'report_checks -from F1/CK -endpoint_count 100'
-
+'''
 
 ![day3](./images/day3_4.png)
 
@@ -173,45 +173,47 @@ This will report slack compulation w.r.t that path as shown in below image :-
 
 
 from the above figure we have to analyze the path in the report of the slack
-
-Type 'cd lab3'
-• Run ‘sta run.tcl -noexit | tee out.txt’
-
+'''
+cd lab3
+sta run.tcl -noexit | tee out.txt
+'''
 ![day5](./images/day5_2.png)
 
 
 
 # exercise 
+'''
 'report_checks –from F1/CK -endpoint_count 100'
-
+'''
 ![exe](./images/exe1.png)
 
 
 
 commom path pesimism removal('CRPR')
-Type 'cd lab4'
-• Run 'sta run.tcl –exit | out.txt’'
-' report_checks –to F2/D'
-
+'''
+cd lab4
+sta run.tcl –exit | out.txt
+report_checks –to F2/D
+'''
 ![exe](./images/exe2.png)
 
 
 
 with set sta_crpr_enabled 1 : 
 '''
-• set sta_crpr_enabled 1
-% report_checks -to F2/D
+set sta_crpr_enabled 1
+report_checks -to F2/D
 '''
 ![exe](./images/exe3.png)
 
 
 
 # ECO INSERTION
-
-cd lab5 and run.tcl
-
-Run 'sta run.tcl –exit | tee run.log'
-
+'''
+cd lab5 
+run.tcl
+sta run.tcl –exit | tee run.log'
+'''
 ![eco](./images/eco_insert.png)
 
 
