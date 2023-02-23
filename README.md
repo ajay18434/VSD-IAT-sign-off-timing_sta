@@ -234,6 +234,6 @@ diff between s27.v and s27_eco.v
 
 
 
-path for labs ![here](https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs)
+path for labs is ![here](https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs)
 
 
