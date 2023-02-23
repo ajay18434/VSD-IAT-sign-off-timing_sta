@@ -52,9 +52,8 @@ Following files shows the steps to read all the above inputs & perform the timin
 
 Following the command use to run OpenSTA
 
-'''
-sta run.tcl -exit | tee run1.log
-'''
+
+`sta run.tcl -exit | tee run1.log`
 
 After the execution of above command , all inputs are being read as show in below image :-
 
@@ -122,7 +121,8 @@ Following the circuit provided to perform the slack compulation calculation
 ![day3](./images/day3_1.png)
 
 
-Following snap shows the command & inputs used for slack computation :-' report_checks -from F1/CK'
+Following snap shows the command & inputs used for slack computation :-
+`report_checks -from F1/CK`
 
 
 ![day3](./images/day3_2.png)
@@ -133,9 +133,8 @@ This will report slack compulation w.r.t that path as shown in below image :-
 
 ![day3](./images/day3_3.png)
 
-'''
-'report_checks -from F1/CK -endpoint_count 100'
-'''
+
+`report_checks -from F1/CK -endpoint_count 100`
 
 ![day3](./images/day3_4.png)
 
@@ -173,57 +172,51 @@ This will report slack compulation w.r.t that path as shown in below image :-
 
 
 from the above figure we have to analyze the path in the report of the slack
-'''
+```
 cd lab3
 sta run.tcl -noexit | tee out.txt
-'''
+```
+
 ![day5](./images/day5_2.png)
 
 
 
 # exercise 
-'''
-'report_checks –from F1/CK -endpoint_count 100'
-'''
+
+`report_checks –from F1/CK -endpoint_count 100`
 ![exe](./images/exe1.png)
 
 
 
 commom path pesimism removal('CRPR')
-'''
+```
 cd lab4
-
 sta run.tcl –exit | out.txt
-
 report_checks –to F2/D
-'''
+```
 ![exe](./images/exe2.png)
 
 
 
 with set sta_crpr_enabled 1 : 
-'''
+```
 set sta_crpr_enabled 1
-
 report_checks -to F2/D
-'''
+```
 ![exe](./images/exe3.png)
 
 
 
 # ECO INSERTION
-'''
+```
 cd lab5
-
 run.tcl
-
 sta run.tcl –exit | tee run.log'
-'''
+```
 ![eco](./images/eco_insert.png)
 
 
-
-# diff between s27.v and s27_eco.v
+diff between s27.v and s27_eco.v
 
 ![diff](./images/gvimdiff.png)
 
