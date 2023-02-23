@@ -1,6 +1,3 @@
-# VSD-IAT-sign-off-timing_sta
-
-
 
 # Day 1 :
 
@@ -19,10 +16,10 @@ By using a network adapter, OpenSTAcan access the host netlist data structures w
 
 Query based incremental update of delays, arrival and required times & Simulator to propagate constants from constraints and netlist tie high/low
 
-Reference for commands used in OpenSTA :
+OpenSTA pdf :
 
 
-![OpenSTA](./Downloads/OpenSTA.pdf)
+![OpenSTA](./images/OpenSTA.pdf)
 
 # Lab_1 : Inputs to OpenSTA
 ```
