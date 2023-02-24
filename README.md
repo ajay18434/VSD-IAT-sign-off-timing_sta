@@ -175,7 +175,7 @@ sta run.tcl –exit | tee run.log
 # Day5 :
 
 
-# lab_5 :slack computation
+# Lab_5 :slack computation
 
 
 ![day5](./images/day5_1.png)
@@ -191,7 +191,7 @@ sta run.tcl -noexit | tee out.txt
 
 
 
-# exercise 
+# Exercise 
 Analyze each path in detail and understand
 ```
 report_checks –from F1/CK -endpoint_count 100
@@ -210,7 +210,7 @@ report_checks –to F2/D
 
 
 
-with set sta_crpr_enabled 1 : 
+With set sta_crpr_enabled 1 : 
 ```
 set sta_crpr_enabled 1
 report_checks -to F2/D
@@ -228,12 +228,12 @@ sta run.tcl –exit | tee run.log'
 ![eco](./images/eco_insert.png)
 
 
-diff between s27.v and s27_eco.v
+Diff between s27.v and s27_eco.v
 
 ![diff](./images/gvimdiff.png)
 
 
 
-path for labs is ![here](https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs)
+Path for labs is ![here](https://github.com/vikkisachdeva/openSTA_sta_workshop/tree/master/vlsideepdive_openSTA_labs)
 
 
