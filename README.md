@@ -200,7 +200,7 @@ report_checks –from F1/CK -endpoint_count 100
 
 
 
-Commom path pesimism removal('CRPR')
+Commom path pesimism removal('CPPR')
 ```
 cd lab4
 sta run.tcl –exit | out.txt
